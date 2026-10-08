@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Streaks</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Streaks</h1>
+    <p class="intro">Check off each habit every day. Miss a day and the count starts over.</p>
+
+    <form id="add-form">
+      <label for="name" class="sr-only">New habit</label>
+      <input id="name" name="name" maxlength="60" placeholder="Read for 20 minutes" autocomplete="off" required>
+      <button type="submit">Add habit</button>
+    </form>
+
+    <p id="error" role="alert" hidden></p>
+    <ul id="habits"></ul>
+    <p id="empty" hidden>No habits yet. Add one above to start your first streak.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

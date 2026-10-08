@@ -1,0 +1,14 @@
+{
+  "name": "streaks",
+  "version": "1.0.0",
+  "description": "A small habit tracker built with Node, Express, and vanilla JavaScript.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": { "express": "^4.21.0" }
+}
